@@ -4,15 +4,15 @@
 
     To get one, follow this link, follow the directions and press "Create" at the end:
 
-    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=FA:AD:16:E1:59:11:E3:A6:83:57:96:40:53:B5:7C:64:E7:A5:73:4A%3Bl.generationz.first_program
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=A9:5E:AB:A8:3D:F3:74:49:78:B2:2E:88:8B:E9:C3:F9:E2:6A:62:84%3Bcom.example.lolik.myapplication
 
     You can also add your credentials to an existing key, using these values:
 
     Package name:
-    FA:AD:16:E1:59:11:E3:A6:83:57:96:40:53:B5:7C:64:E7:A5:73:4A
+    A9:5E:AB:A8:3D:F3:74:49:78:B2:2E:88:8B:E9:C3:F9:E2:6A:62:84
 
     SHA-1 certificate fingerprint:
-    FA:AD:16:E1:59:11:E3:A6:83:57:96:40:53:B5:7C:64:E7:A5:73:4A
+    A9:5E:AB:A8:3D:F3:74:49:78:B2:2E:88:8B:E9:C3:F9:E2:6A:62:84
 
     Alternatively, follow the directions here:
     https://developers.google.com/maps/documentation/android/start#get-key
@@ -20,5 +20,5 @@
     Once you have your key (it starts with "AIza"), replace the "google_maps_key"
     string in this file.
     -->
-    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAdw7Sp63HhU8tuHEo9kUeW9e8cH9yQBrI</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">YOUR_KEY_HERE</string>
 </resources>

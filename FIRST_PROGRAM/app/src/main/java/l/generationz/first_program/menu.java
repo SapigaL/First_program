@@ -4,7 +4,9 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+
+
+import android.widget.ImageButton;
 
 public class menu extends AppCompatActivity {
 
@@ -12,8 +14,8 @@ public class menu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
-        Button qusets=(Button) findViewById(R.id.quest);
-        Button map=(Button) findViewById(R.id.map);
+        ImageButton qusets=(ImageButton) findViewById(R.id.quests1);
+        ImageButton map=(ImageButton) findViewById(R.id.map2);
         map.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
